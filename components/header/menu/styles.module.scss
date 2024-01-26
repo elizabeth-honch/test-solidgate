@@ -1,0 +1,12 @@
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+
+  &__text {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    font-weight: 700;
+  }
+}

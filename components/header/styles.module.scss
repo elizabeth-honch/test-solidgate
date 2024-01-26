@@ -1,0 +1,13 @@
+.header {
+  &__block {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 0px 14px 15px 32px;
+  }
+
+  &__info {
+    display: flex;
+    gap: 5px;
+  }
+}

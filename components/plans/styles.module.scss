@@ -1,0 +1,27 @@
+.plans {
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    list-style-type: none;
+  }
+
+  &__btnBlock {
+    margin: 16px 0;
+  }
+
+  &__info {
+    font-family: Plus Jakarta Sans;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #778191;
+
+    &_link {
+      font-weight: 500;
+      color: #222B38;
+    }
+  }
+}

@@ -1,0 +1,65 @@
+.quizle {
+  &__itemEnd {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 13px;
+  }
+
+  &__timeStart {
+    display: inline-block;
+    width: 69px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    background: linear-gradient(235.69deg, #FF4D78 0%, #FF9600 100%);
+    color: #FFFFFF;
+    text-align: center;
+    box-sizing: border-box;
+
+    &_date {
+      font-family: 'Inter';
+      font-size: 12px;
+      font-weight: 600;
+      line-height: 20px;
+      letter-spacing: 0em;
+      text-align: center;
+    }
+    
+    &_year {
+      display: inline-block;
+      font-family: Inter;
+      font-size: 12px;
+      font-weight: 600;
+      line-height: 20px;
+      letter-spacing: 0em;
+      text-align: center;
+    }
+
+  }
+
+  &__timeNow {
+    display: inline-block;
+    width: 55px;
+    padding: 8px 12px;
+    margin-top: 12px;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    color: #000;
+    border-radius: 8px;
+    border: 1px solid #00000014;
+    box-shadow: 0px 2px 4px -2px #0000001F;
+    box-sizing: border-box;
+  }
+
+  &__chart {
+    position: relative;
+  }
+
+  &__img {
+    position: absolute;
+    top: -6px;
+    width: 100%;
+  }
+}
